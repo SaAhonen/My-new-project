@@ -1,5 +1,5 @@
 
-# how to find peer-reviewed information for master's thesis
+# painting woth AI
 
 Final project for the Building AI course
 
