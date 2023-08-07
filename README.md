@@ -1,70 +1,33 @@
 
-# painting with AI
+# How to find peer-reviewed information for master's thesis
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+AI searches for peer-reviewed literature and articles
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+The idea should help you find suitable sources for your Master's thesis. The problem is common, as the recommendation is to use as recent publications as possible, but these are not always peer-reviewed.
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+The users would be the students working on the Master's Thesis. This could also be applied to any other thesis, dissertation, etc. The user base could be very broad. The user searches for a keyword or several 
+keywords in the library he/she considers appropriate.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Articles, books and publications can be found in educational libraries, online libraries, Google Scholar, etc. The data already exists, but finding the right sources can be tricky.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Projekti ei ratkaise lähteen sopivuuden arviointia kyseiseen työhön (Master's Thesis, jne.), se jää käyttäjän arvioitavaksi. Lisäksi käyttäjän arvioitavaksi jää tiedon luotettavuus.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+The project requires programming skills that I don't have. In addition, there should be an interface with the electronic libraries of different educational institutions.
 
 
 ## Acknowledgments
